@@ -1,5 +1,5 @@
 package helloworld;
 
-public class Variables {
+public class Loops {
     
 }

@@ -2,7 +2,7 @@ package helloworld;
 
 public class IfStatements {
     public static void main(String[] args) {
-        int x = 10;
+        int x = 1000;
         
         // Simple If statement
         if (x < 20) {
