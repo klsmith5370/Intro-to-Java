@@ -25,5 +25,7 @@ public class Loops {
             System.out.println(y);
             y++;
         } while(y < 50);
+
+        
     }
 }
