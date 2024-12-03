@@ -11,9 +11,26 @@ public class Arrays {
             System.out.println(myFirstArray[i]);
         }
 
+        // Print all elements of myFirstArray with foreach loop
+        for (double element: myFirstArray) {
+            System.out.println(element);
+        }
+
+        // Summing all elements of myFirstArray
         double sum = 0;
         for (int i = 0; i < myFirstArray.length; i++) {
-            total = total + myFirstArray[i];
+            sum = sum + myFirstArray[i];
+            System.out.println(sum);
+        }
+
+        // Find the smallest element
+        double min = myFirstArray[0];
+        for (int i = 0; i < myFirstArray.length; i++) {
+            if (myFirstArray[i] < min)
+                min = myFirstArray[i];
+
+            System.out.println("Minimum value is " + min);
+            System.out.println("The total value is " + sum);
         }
     }
 }
