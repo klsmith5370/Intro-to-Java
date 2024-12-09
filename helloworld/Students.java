@@ -9,7 +9,7 @@ public class Students {
     double grade;
 
     // Create the constructor of the class Student
-    public void Student (String name) {
+    public Students (String name) {
         this.name = name;
     }
 

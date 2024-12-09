@@ -1,12 +1,13 @@
 package helloworld;
 
-import java.io*;
+import java.io.*;
+import helloworld.Students;
 
 public class StudentTest {
     public static void main (String args[]) {
         // created 2 objects using the student constructors
-        Student student1 = new Student("Bob Parsons");
-        Student student2 = new Student("Michael Test");
+        Students student1 = new Students("Bob Parsons");
+        Students student2 = new Students("Michael Test");
 
         // invoke methods for each object
         student1.studentAge(14);
